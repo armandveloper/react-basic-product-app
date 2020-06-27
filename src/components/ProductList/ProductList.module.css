@@ -1,0 +1,22 @@
+.productList {
+	list-style: none;
+	margin: 0;
+	margin-top: 4rem;
+	padding: 0;
+}
+.noItems {
+	margin-top: 4rem;
+	font-size: 2.6rem;
+	font-weight: 700;
+	color: #b9282d;
+}
+li {
+	background-color: #efc4c5;
+	font-size: 1.8rem;
+	font-weight: 500;
+	margin-bottom: 1rem;
+	padding: 1.5rem 2rem;
+}
+li:nth-child(even) {
+	background-color: #faedbe;
+}
